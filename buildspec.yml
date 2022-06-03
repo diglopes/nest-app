@@ -4,8 +4,8 @@ phases:
   pre_build:
     commands:
       - echo Installing packages...
+      - rm package-lock.json
       - npm install
-      - npm install -g nest
   build:
     commands:
       - echo Building application...
