@@ -5,6 +5,7 @@ phases:
     commands:
       - echo Installing packages...
       - npm install
+      - npm install -g webpack
   build:
     commands:
       - echo Building application...
